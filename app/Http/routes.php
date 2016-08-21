@@ -18,10 +18,19 @@ Route::when('*', 'trick.view_throttle');
 Route::pattern('tag_slug', '[a-z0-9\-]+');
 Route::pattern('trick_slug', '[a-z0-9\-]+');
 
+/**
+ * Dashboard
+ */
+Route::group(['prefix' => 'dashboard'], function () {
+    Route::get('/{vue_capture?}', function () {
+        return view('dashboard.index');
+    })->where('vue_capture', '[\/\w\.-]*');
+});
+
 /*
  * Admin
  */
-$admin = [
+/*$admin = [
             'prefix' => 'dashboard',
             'namespace' => 'Admin',
             'middleware' => 'admin',
@@ -39,7 +48,7 @@ Route::group($admin, function () {
     Route::controller('settings', 'SettingController');
     Route::any('upload/ueditor', 'UploadController@ueditor');
     Route::post('upload/image', 'UploadController@postImage');
-});
+});*/
 
 # Home routes
 Route::get('/', ['as' => 'browse.recent', 'uses' => 'BrowseController@getBrowseRecent']);
