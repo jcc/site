@@ -42,6 +42,6 @@ return [
     'github' => [
         'client_id'     => env('GITHUB_APP_ID'),
         'client_secret' => env('GITHUB_APP_SECRET'),
-        'redirect'      => 'http://laravel.so/login/github',
+        'redirect'      => 'https://iline.co/login/github',
     ],
 ];
