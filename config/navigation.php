@@ -39,11 +39,11 @@ return array(
             'route' => 'browse.popular',
             'active' => array('popular'),
         ),
-        array(
-            'label' => '评论最多',
-            'route' => 'browse.comments',
-            'active' => array('comments'),
-        ),
+        // array(
+        //     'label' => '评论最多',
+        //     'route' => 'browse.comments',
+        //     'active' => array('comments'),
+        // ),
     ),
 
 );

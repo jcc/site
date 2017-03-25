@@ -44,7 +44,7 @@ Route::group($admin, function () {
 # Home routes
 Route::get('/', ['as' => 'browse.recent', 'uses' => 'BrowseController@getBrowseRecent']);
 Route::get('popular', ['as' => 'browse.popular', 'uses' => 'BrowseController@getBrowsePopular']);
-Route::get('comments', ['as' => 'browse.comments', 'uses' => 'BrowseController@getBrowseComments']);
+// Route::get('comments', ['as' => 'browse.comments', 'uses' => 'BrowseController@getBrowseComments']);
 Route::get('about', ['as' => 'about', 'uses' => 'HomeController@getAbout']);
 
 # Trick routes
