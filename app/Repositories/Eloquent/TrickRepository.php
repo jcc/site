@@ -32,7 +32,7 @@ class TrickRepository extends AbstractRepository implements TrickRepositoryInter
      */
     protected $tag;
 
-    const PAGE_SIZE = 11;
+    const PAGE_SIZE = 12;
 
     /**
      * Create a new DbTrickRepository instance.

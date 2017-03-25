@@ -1,9 +1,6 @@
 <div class="row trick-container">
     @if($tricks->count())
         @foreach($tricks as $index => $trick)
-            @if($index == 2)
-                @include('ads.card-1')
-            @endif
             @include('tricks.card', [ 'trick' => $trick ])
         @endforeach
     @else
