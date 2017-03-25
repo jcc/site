@@ -2,7 +2,7 @@
 
 return array(
     'title' => 'Laravel技巧',
-    'link' => 'http://www.laravel.so',
+    'link' => 'http://www.iline.co',
     'sub_title' => 'Laravel.so 是一个汇集了 PHP 框架 Laravel 有用的技巧和窍门的网站。',
     'author' => '
         <author>

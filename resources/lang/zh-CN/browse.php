@@ -1,7 +1,7 @@
 <?php
 
 return array(
-    'site_title' => ':title ・ Laravel.so - Laravel 技巧、经验分享',
+    'site_title' => ':title ・ iLine.co - Laravel 技巧、经验分享',
     'browsing_most_recent_tricks' => '最新的 Laravel 技巧',
     'browsing_most_popular_tricks' => '最热门的 Laravel 技巧',
     'browsing_tag' => '":tag" 下的技巧',

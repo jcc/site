@@ -1,6 +1,6 @@
-# [laravel.so](http://laravel.so)
+# [iline.co](http://iline.co)
 
-http://laravel.so
+http://iline.co
 
 
 # 安装
@@ -8,7 +8,7 @@ http://laravel.so
 1. 克隆代码到本地
 
   ```
-  git clone https://github.com/laravelso/site
+  git clone https://github.com/jcc/site
   cd site
   ```
 

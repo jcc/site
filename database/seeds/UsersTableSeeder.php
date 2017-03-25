@@ -11,13 +11,7 @@ class UsersTableSeeder extends Seeder
         $users = [
             [
                 'username' => 'admin',
-                'email' => 'admin@laravel.so',
-                'password' => Hash::make('password'),
-                'is_admin' => '1',
-            ],
-            [
-                'username' => 'overtrue',
-                'email' => 'i@overtrue.me',
+                'email' => 'admin@iline.co',
                 'password' => Hash::make('password'),
                 'is_admin' => '1',
             ],

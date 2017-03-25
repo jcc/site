@@ -2,7 +2,7 @@
 
 return array(
     'about_tricks_website' => '关于',
-    'about_title' => '关于 Laravel.so',
+    'about_title' => '关于 iLine.co',
     'error' => '错误',
     'error_title' => 'Whoops... 出错了...',
     'registration' => '注册',

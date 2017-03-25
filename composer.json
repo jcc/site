@@ -1,6 +1,6 @@
 {
-    "name": "laravelso/site",
-    "description": "http://www.laravel.so.",
+    "name": "ilineco/site",
+    "description": "http://www.iline.co.",
     "keywords": ["Tricks", "framework", "laravel"],
     "license": "MIT",
     "type": "project",

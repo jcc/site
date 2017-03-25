@@ -184,7 +184,7 @@ class TrickPresenter extends BasePresenter
     public function pageTitle()
     {
         $title = $this->wrappedObject->title;
-        $baseTitle = ' ・ Laravel.so';
+        $baseTitle = ' ・ iline.co';
         $maxLength = 70;
 
         if (strlen($title.$baseTitle) > $maxLength) {

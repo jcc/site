@@ -12,7 +12,7 @@
                 <div class="form-group">
                     <label for="site_name" class="col-lg-2 control-label">网站名称</label>
                     <div class="col-lg-10">
-                        <input type="text" class="form-control" id="site_name" placeholder="例如：Laravel.so">
+                        <input type="text" class="form-control" id="site_name" placeholder="例如：iLine.co">
                     </div>
                 </div>
                 <div class="form-group">
