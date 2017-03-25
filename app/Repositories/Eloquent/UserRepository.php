@@ -75,7 +75,8 @@ class UserRepository extends AbstractRepository implements UserRepositoryInterfa
             return $user;
         }
 
-        throw new UserNotFoundException('The user "'.$username.'" does not exist!');
+        abort(404);
+        // throw new UserNotFoundException('The user "'.$username.'" does not exist!');
     }
 
     /**
